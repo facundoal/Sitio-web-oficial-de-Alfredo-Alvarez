@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+font-size: 50px;
+text-align: center;
+color: black;
+
+}
+
+.galeria{
+    height: 100%;
+    width: 1300px;
+    background-color: orange;
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 200px;
+    grid-template-areas: "img1 img2 img3";
+    padding: 15px;
+    grid-gap: 15px;
+    border-radius: 10px;
+}
+.img {
+    border-radius: 10px;
+    background-position: center;  
+}
+    
+.img:hover{
+    transform: scale(1.09);
+    transition: all 0.9s;
+    box-shadow: inset;
+}
+
+.img1{
+    background-image: url(img/WhatsApp\ Image\ 2023-04-04\ at\ 16.05.26.jpeg);
+   border: 4px solid black;
+   background-size: cover;
+}
+.img2{
+    background-image: url(img/WhatsApp\ Image\ 2023-04-04\ at\ 16.05.25.jpeg);
+   border: 4px solid black;
+   background-size: cover;
+}
+.img3{
+    background-image: url(img/WhatsApp\ Image\ 2023-04-04\ at\ 16.05.24.jpeg);
+   border: 4px solid black;
+   background-size: cover;
+}
+.img4{
+    background-image: url(img/WhatsApp\ Image\ 2023-04-10\ at\ 20.17.34.jpeg);
+    background-size: cover;
+    border: 4px solid black;
+}
+.img5{
+    background-image: url(img/WhatsApp\ Image\ 2023-04-04\ at\ 16.05.28.jpeg);
+   border: 4px solid black;
+   background-size: cover;
+}
+.img6{
+    background-image: url(img/WhatsApp\ Image\ 2023-04-04\ at\ 16.05.32.jpeg);
+   border: 4px solid black;
+   background-size: cover;
+}
+
+h2{
+    text-align: center;
+    color: black;
+    font-size: 70px;
+    word-spacing: 2px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.trabajo{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orange;
+}
+.carde{
+    height: 300px;
+    width: 420px;
+    background-color: orange;
+    border: 5px solid black;
+}
+
+.carde1{
+    background-image: url(img/conferencia\ 1.jpg);
+    background-size: cover;
+    
+}
+.carde2{
+    background-image: url(img/conferencia\ 3.jpg);
+    background-size: cover;
+}
+.carde3{
+    background-image: url(img/conferencia\ 4.jpg);
+    background-size: cover;
+}
+h3{
+    text-align: center;
+    color: black;
+}
+
+.page1{
+    background-image: url(img/WhatsApp\ Image\ 2023-03-25\ at\ 18.57.16.jpeg);
+    background-size: cover;
+}
+.page2{
+    background-image: url(img/WhatsApp\ Image\ 2023-03-25\ at\ 18.57.16.jpeg);
+    background-size: cover;
+}
+.page3{
+    background-image: url(img/WhatsApp\ Image\ 2023-03-25\ at\ 18.57.16.jpeg);
+    background-size: cover;
+}
+
+h6{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px 10px 10px;
+}
+.redes{
+    
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.redes a{
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.redes:hover{
+    transform: scale(1.09);
+    transition: all 0.9s;
+    background-color: orange;
+}
+
+.consultas{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
