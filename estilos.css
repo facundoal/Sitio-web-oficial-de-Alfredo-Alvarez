@@ -144,11 +144,31 @@ h2{
     padding-right: 10px;
 }
 
+.col{
+    height: 250px;
+    width: 150px;
+    background-color: black;
+    border: 5px solid orange;
+}
+.col1{
+    background-image: url(./img/bastante\ 2.jpg);
+    background-size: cover;
+}
+.col2{
+    background-image: url(./img/bastante\ mas\ 3.jpg);
+    background-size: cover;
+}
+.col3{
+    background-image: url(./img/WhatsApp\ Image\ 2023-04-26\ at\ 21.26.51.jpeg);
+    background-size: cover;
+}
+
 .trabajo{
     display: flex;
     justify-content: space-evenly;
     background-color: orange;
 }
+
 .carde{
     height: 300px;
     width: 420px;
@@ -210,6 +230,9 @@ h6{
     color:white;
     display: flex;
     justify-content: space-evenly;
+    height: 300px;
+    width: 420px;
+
 }
 
 .redes:hover{
@@ -218,9 +241,9 @@ h6{
     background-color: orange;
 }
 
-.consultas{
-    text-align: center;
-}
+
+
+
 
 
 
