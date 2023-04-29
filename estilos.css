@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: linear-gradient(to bottom, #ff9000, #ff906d, #ffa3b3, #ffc1e6, #ffdfff, #e3d3ea, #ccc7d3, #b9b9b9, #878787, #585858, #2e2e2e, #000000);   
+}
 h1{
-font-size: 50px;
+font-size: 60px;
 text-align: center;
-color: black;
+color: white;
 
 }
 
@@ -142,8 +145,20 @@ h2{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
 }
 
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+        }
+    100%{
+        opacity: 1;
+        }
+        }        
 .col{
     height: 250px;
     width: 150px;
@@ -177,16 +192,16 @@ h2{
 }
 
 .carde1{
-    background-image: url(img/conferencia\ 1.jpg);
+    background-image: url(img/alfredo\ 1.jpeg);
     background-size: cover;
     
 }
 .carde2{
-    background-image: url(img/conferencia\ 3.jpg);
+    background-image: url(img/alfredo\ 2.jpeg);
     background-size: cover;
 }
 .carde3{
-    background-image: url(img/conferencia\ 4.jpg);
+    background-image: url(img/alfredo\ 3.jpeg);
     background-size: cover;
 }
 h3{
@@ -209,8 +224,8 @@ h3{
 
 h6{
     text-align: center;
-    color: black;
-    font-size: 20px;
+    color: white;
+    font-size: 30px;
     padding: 10px 20px 10px 10px;
 }
 .redes{
@@ -227,7 +242,7 @@ h6{
 }
 
 .redes a{
-    color:white;
+    color: white;
     display: flex;
     justify-content: space-evenly;
     height: 300px;
@@ -244,6 +259,7 @@ h6{
 .redes{
     text-align: center;
 }
+
 
 
 
