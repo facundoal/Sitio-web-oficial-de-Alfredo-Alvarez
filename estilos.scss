@@ -3,27 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-$color1: orange;
-$color2: black;
-$color3: white;
-
-
 body{
-    background-image: linear-gradient(to bottom, #ff9000, #ff906d, #ffa3b3, #ffc1e6, #ffdfff, #e3d3ea, #ccc7d3, #b9b9b9, #878787, #585858, #2e2e2e, #000000);   
+    background-image: linear-gradient(to bottom, #ff9000, #ff906d, #ffa3b3, #ffc1e6, #ffdfff, #e3d3ea, #ccc7d3, #b9b9b9, #878787, #585858, #2e2e2e, #000000);  
 }
 h1{
 font-size: 60px;
 text-align: center;
-color: $color3;
+color: white;
+
 
 }
+
 
 .galeria{
     height: 100%;
     width: 100%;
-    background-color: $color1;
-    border: 5px solid $color2;
+    background-color: orange;
+    border: 5px solid black;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 200px 200px;
@@ -36,43 +32,45 @@ color: $color3;
     border-radius: 10px;
     background-position: center;  
 }
-    
+   
 .img:hover{
     transform: scale(1.09);
     transition: all 0.9s;
     box-shadow: inset;
 }
 
+
 .img1{
     background-image: url(img/WhatsApp\ Image\ 2023-04-04\ at\ 16.05.26.jpeg);
-   border: 4px solid $color2;
+   border: 4px solid black;
    background-size: cover;
 }
 .img2{
     background-image: url(img/WhatsApp\ Image\ 2023-04-04\ at\ 16.05.25.jpeg);
-   border: 4px solid $color2;
+   border: 4px solid black;
    background-size: cover;
 }
 .img3{
     background-image: url(img/WhatsApp\ Image\ 2023-04-04\ at\ 16.05.24.jpeg);
-   border: 4px solid $color2;
+   border: 4px solid black;
    background-size: cover;
 }
 .img4{
     background-image: url(img/WhatsApp\ Image\ 2023-04-10\ at\ 20.17.34.jpeg);
     background-size: cover;
-    border: 4px solid $color2;
+    border: 4px solid black;
 }
 .img5{
     background-image: url(img/WhatsApp\ Image\ 2023-04-04\ at\ 16.05.28.jpeg);
-   border: 4px solid $color2;
+   border: 4px solid black;
    background-size: cover;
 }
 .img6{
     background-image: url(img/WhatsApp\ Image\ 2023-04-04\ at\ 16.05.32.jpeg);
-   border: 4px solid $color2;
+   border: 4px solid black;
    background-size: cover;
 }
+
 
 @media only screen and (min-width:280px){
     .galeria{
@@ -81,6 +79,8 @@ color: $color3;
     }
 
 
+
+
 .img1{
     grid-column: 1/3;
     grid-row: 1/2;
@@ -106,7 +106,9 @@ color: $color3;
     grid-row: 3/4;
 }
 
+
 }
+
 
 @media only screen and (min-width:390px){
     .galeria{
@@ -115,6 +117,8 @@ color: $color3;
     }
 
 
+
+
 .img1{
     grid-column: 1/2;
     grid-row: 1/2;
@@ -140,11 +144,13 @@ color: $color3;
     grid-row: 2/3;
 }
 
+
 }
+
 
 h2{
     text-align: center;
-    color: $color2;
+    color: black;
     font-size: 70px;
     word-spacing: 2px;
     padding-left: 10px;
@@ -157,6 +163,7 @@ h2{
     animation-iteration-count: infinite;
 }
 
+
 @keyframes aparecer {
     0%{
         opacity: 0;
@@ -168,8 +175,8 @@ h2{
 .col{
     height: 250px;
     width: 150px;
-    background-color: $color2;
-    border: 5px solid $color1;
+    background-color: black;
+    border: 5px solid orange;
 }
 .col1{
     background-image: url(./img/bastante\ 2.jpg);
@@ -184,23 +191,26 @@ h2{
     background-size: cover;
 }
 
+
 .trabajo{
     display: flex;
     justify-content: space-evenly;
-    background-color: $color1;
+    background-color: orange;
 }
+
 
 .carde{
     height: 300px;
     width: 420px;
-    background-color: $color1;
-    border: 5px solid $color2;
+    background-color: orange;
+    border: 5px solid black;
 }
+
 
 .carde1{
     background-image: url(img/alfredo\ 1.jpeg);
     background-size: cover;
-    
+   
 }
 .carde2{
     background-image: url(img/alfredo\ 2.jpeg);
@@ -212,8 +222,9 @@ h2{
 }
 h3{
     text-align: center;
-    color: $color2;
+    color: black;
 }
+
 
 .page1{
     background-image: url(img/WhatsApp\ Image\ 2023-03-25\ at\ 18.57.16.jpeg);
@@ -228,14 +239,15 @@ h3{
     background-size: cover;
 }
 
+
 h6{
     text-align: center;
-    color: $color3;
+    color: white;
     font-size: 30px;
     padding: 10px 20px 10px 10px;
 }
 .redes{
-    
+   
     width: 100%;
     height: 80px;
     padding-left: 50px;
@@ -246,20 +258,24 @@ h6{
     font-size: 50px;
 }
 
+
 .redes a{
-    color: $color3;
+    color: white;
     display: flex;
     justify-content: space-evenly;
     height: 300px;
     width: 420px;
 
+
 }
+
 
 .redes:hover{
     transform: scale(1.09);
     transition: all 0.9s;
-    background-color: $color1;
+    background-color: orange;
 }
+
 
 .redes{
     text-align: center;
