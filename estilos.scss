@@ -5,14 +5,14 @@
 }
 
 
-body{
+.indexbody{
     background-image: linear-gradient(to bottom, #ff9000, #ff906d, #ffa3b3, #ffc1e6, #ffdfff, #e3d3ea, #ccc7d3, #b9b9b9, #878787, #585858, #2e2e2e, #000000);  
 }
+
 h1{
 font-size: 60px;
 text-align: center;
-color: white;
-
+color: black;
 
 }
 
@@ -282,4 +282,33 @@ h6{
 .redes{
     text-align: center;
 }
+
+.card{
+    height: 200px;
+    width: 100%;
+}
+
+.card-body{
+    color: #ff9000;
+    background-color: #000000;
+    text-align: center;
+}
+
+.card-link{
+    color: #ff9000;
+}
+
+.alineadores{
+height: 100%;
+width: 100%;
+background-image: linear-gradient(to bottom, #000000, #36181d, #68272b, #9a3b30, #ca552c, #dd674a, #ef7967, #ff8d83, #ffa7ba, #fbc6e2, #f4e3f8, #fdfdfd);
+}
+
+.cardo2-img-top{
+    width: 950px;
+}
+
+
+
+
 
