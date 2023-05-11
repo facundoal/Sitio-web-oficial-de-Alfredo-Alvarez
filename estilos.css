@@ -213,21 +213,6 @@ h3 {
   color: black;
 }
 
-.page1 {
-  background-image: url(img/WhatsApp\ Image\ 2023-03-25\ at\ 18.57.16.jpeg);
-  background-size: cover;
-}
-
-.page2 {
-  background-image: url(img/WhatsApp\ Image\ 2023-03-25\ at\ 18.57.16.jpeg);
-  background-size: cover;
-}
-
-.page3 {
-  background-image: url(img/WhatsApp\ Image\ 2023-03-25\ at\ 18.57.16.jpeg);
-  background-size: cover;
-}
-
 h6 {
   text-align: center;
   color: white;
@@ -287,4 +272,12 @@ h6 {
 
 .cardo2-img-top {
   width: 950px;
+}
+
+.cardo1-text {
+  color: #f4e3f8;
+}
+
+.cardo1-title {
+  color: #f4e3f8;
 }/*# sourceMappingURL=estilos.css.map */
