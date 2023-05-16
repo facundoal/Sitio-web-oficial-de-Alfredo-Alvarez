@@ -280,4 +280,12 @@ h6 {
 
 .cardo1-title {
   color: #f4e3f8;
+}
+
+.cursobody {
+  background-image: linear-gradient(to bottom, #ffffff, #ffdbfd, #ffafd4, #ff8683, #ff7900);
+}
+
+.carda {
+  text-align: center;
 }/*# sourceMappingURL=estilos.css.map */

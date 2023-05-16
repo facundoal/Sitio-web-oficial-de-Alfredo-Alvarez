@@ -17,28 +17,35 @@ color: black;
 }
 
 
-@import "_galeria" ;
+@import "./archivosscss/galeria" ;
 
 
-@import "_mediaquyres" ;
+@import "./archivosscss/mediaquyres" ;
 
 
-@import "_bastante+";
+@import "./archivosscss/bastante+";
 
 
-@import "_docentes";
-
-
-
+@import "./archivosscss/docentes";
 
 
 
 
 
-@import "_redes" ;
 
-@import "_alineadores" ;
 
+
+@import "./archivosscss/redes" ;
+
+@import "./archivosscss/alineadores" ;
+
+.cursobody{
+    background-image: linear-gradient(to bottom, #ffffff, #ffdbfd, #ffafd4, #ff8683, #ff7900);
+}
+
+.carda{
+    text-align: center;
+}
 
 
 
